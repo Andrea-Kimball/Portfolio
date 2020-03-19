@@ -11,6 +11,10 @@ body {
     background-size: 100% 100%;
     
 }
+
+.jumbotron{
+    background-color: rgba(70, 150, 182, 0.616);
+}
 figure{
     position: relative;
     width: 100%;
@@ -59,9 +63,9 @@ h2 {
 }
 
 p {
-    font-size: 1.7em;
+    font-size: 2.2em;
     line-height: 1.4em;
-    color: #555;
+    color:black;
     padding: 0px;
     margin: 0px 0.5em 0.75em 0px;
 }
@@ -230,7 +234,7 @@ footer {
 
     .btn:hover {
     background-color: rgba(11, 86, 184, 0.596);
-    letter-spacing: 2px;
-        border: 2px solid #745b2f;
+    letter-spacing: 4px;
+        border: 2px solid #405496;
     }
     
