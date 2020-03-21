@@ -51,7 +51,7 @@ h1 {
     /*top: 50px;
     margin: 1em 3em 0.5em 0;
     padding-left: 9em;*/
-    font-family: 'Lemonada', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 55px;
 }
 
@@ -136,9 +136,9 @@ div.middle{
 }
 div.text {
     color: midnightblue;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
-    font-family: 'Lemonada', cursive;
+    font-family: 'Lobster', cursive;
 }
 
 .hide{
@@ -149,6 +149,7 @@ div.text {
 div.text:hover .hide{
  opacity: 1;
  max-width: 1em;
+ letter-spacing: 4px;
 }
 
 div.clear {
