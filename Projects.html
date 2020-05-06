@@ -3,16 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
     <title>Andrea Kimball</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
         function show(shown, hidden) {
             document.getElementById(shown).style.display = 'block';
             document.getElementById(hidden).style.display = 'none';
-            return false;           
+            return false;
         }
     </script>
 </head>
@@ -24,6 +25,7 @@
         <nav id="utilityMenu">
             <div class="nav">
                 <a href=" https://www.linkedin.com/in/andrea-kimball/">
+                    <label> LinkedIn </label>
                     <img src="assets/Letter_A.png" alt=" Logo" style="width:45px;height:50px;">
                 </a>
                 <a rel="home" href="index.html" class="">
@@ -43,41 +45,54 @@
     </header>
 
     <div class="content">
-        
+
         <p> Click below for a preview of my recent projects. Check back later to see what else I'm working on</p>
-       <a id="Projects"></a>
+        <a id="Projects"></a>
         <p>
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
                 aria-expanded="false" aria-controls="collapseExample">
                 Projects
             </button>
         </p>
-
-        <div class="collapse" id="collapseExample">
-            <img src="assets/generalstore.PNG" style="width:140px; height:160px;" id=" Store"
-                class="img-responsive img-thumbnail pull-left" alt=" Store" />
-            <a href=" https://github.com/Andrea-Kimball/Html_Register/tree/master/StoreAppDemo"
-                class=" btn btn-info btn-md">Static layout Application</a> <br>
-            <img src="assets/creature.JPG" style="width:140px; height:200px;" id=" Creature"
-                class="img-responsive img-thumbnail pull-left" alt=" Creature" />
-            <a href=" https://github.com/Andrea-Kimball/Html_Register/tree/master/creature"
-                class=" btn btn-info btn-md">Creature Assignment</a> <br>
-            <img src="assets/Komodo Challenges.PNG" style="width:140px; height:160px;" id=" Store"
-                class="img-responsive img-thumbnail pull-left" alt=" Store" />
-            <a href=" https://github.com/Andrea-Kimball/ConsoleApplicationChallenges"
-                class=" btn btn-info btn-md">Business Challenges</a> <br>
-            <img src="assets/bookmarked.PNG" style="width:140px; height:160px;" id=" Team Project"
-                class="img-responsive img-thumbnail pull-left" alt=" Team Project" />
-            <a href="https://github.com/gmason0702/BookmarkedAPI" class=" btn btn-info btn-md"> Book Club
-                Application-
-                Team Project</a> <br>
-            <img src="assets/MJ.PNG" style="width:140px; height:160px;" id=" Store"
-                class="img-responsive img-thumbnail pull-left" alt=" Coming Soon" />
-            <a href="https://michaelforever.azurewebsites.net/" class=" btn btn-info btn-md"> Michael, Forever</a>
+        <div class=" col-md-4">
+            <div class="collapse" id="collapseExample">
+                <div class="card-body" style="overflow:auto;height: 300px; padding:5px;">
+                    <img src="assets/generalstore.PNG" style="width:140px; height:160px;" id=" Store"
+                        class="img-responsive img-thumbnail pull-left" alt=" Store" />
+                    <a href=" https://github.com/Andrea-Kimball/Html_Register/tree/master/StoreAppDemo"
+                        class=" btn btn-info btn-md" style="background-color:#1E9E96" ;>Static layout Application</a>
+                        <p>Solely using HTML and CSS to build a storefront application, this project introduces the user to github and the wireframing process.</p>
+                    <br>
+                    <img src="assets/creature.JPG" style="width:140px; height:200px;" id=" Creature"
+                        class="img-responsive img-thumbnail pull-left" alt=" Creature" />
+                    <a href=" https://github.com/Andrea-Kimball/Html_Register/tree/master/creature"
+                        class=" btn btn-info btn-md" style="background-color:#1E9E96" ;>Creature Assignment</a> 
+                        <p>This project tests the users knowledge and application of CSS by creating something simple.</p>
+                        <br>
+                    <img src="assets/Komodo Challenges.PNG" style="width:140px; height:160px;" id=" Store"
+                        class="img-responsive img-thumbnail pull-left" alt=" Store" />
+                    <a href=" https://github.com/Andrea-Kimball/ConsoleApplicationChallenges"
+                        class=" btn btn-info btn-md" style="background-color:#1E9E96" ;>Business Challenges</a>
+                        <p>These console applications implement the repository pattern and unit testing learned in class. These demonstrate that I understand how to utilize interfaces and have an understanding of APIE and SOLID</p> <br>
+                    <img src="assets/bookmarked.PNG" style="width:140px; height:160px;" id=" Team Project"
+                        class="img-responsive img-thumbnail pull-left" alt=" Team Project" />
+                    <a href="https://github.com/gmason0702/BookmarkedAPI" class=" btn btn-info btn-md"
+                        style="background-color:#1E9E96" ;> Book Club
+                        Application-
+                        Team Project</a> 
+                        <p> This team project is an n-tier data application with an API presentation tier and full CRUD functionality. The group collaborated and was faced with the challenge of deciding on a topic that we all found interesting as well testing our ability to work together. My personal challenge,victory and contribution to this project is the implementation of user roles.</p>
+                        <br>
+                    <img src="assets/MJ.PNG" style="width:140px; height:160px;" id=" Store"
+                        class="img-responsive img-thumbnail pull-left" alt=" Coming Soon" />
+                    <a href="https://michaelforever.azurewebsites.net/" class=" btn btn-info btn-md"
+                        style="background-color:#1E9E96" ;> Michael, Forever</a>
+                        <p> This ASP.NET MVC project brings together everything that was learned throughout the previous projects adding the use of the MVC pattern. This project also gave me a better understanding of Azure.  </p>
+                </div>
+            </div>
         </div>
     </div>
 
-
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
