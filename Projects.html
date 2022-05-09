@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Andrea Kimball</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/bootstrap.bundle.js">
+        function show(shown, hidden) 
+        {
+            document.getElementById(shown).style.display = 'block';
+            document.getElementById(hidden).style.display = 'none';
+            return false;
+        }
+    </script>
+</head>
+
+<body class="projects">
+
+    <div class="transition" id="Enter"></div>
+    <header>
+
+        
+        <!---<nav id="utilityMenu">--->
+            <div id="div1" class="nav">
+                <a href=https://www.linkedin.com/in/andrea-kimball/ class = "">
+                    <label> LinkedIn </label></br>
+                    <img src="assets/Letter_A.png" alt="Logo" style="width:73px;height:50px;">
+                </a>
+                </div>
+                <div id="div2" class="nav">
+                <a rel="home" href="Index.html" class="">
+                    <label> Home </label></br>
+                    <img src="assets/home.png" alt="Logo" style="width:73px;height:50px;">
+                </a>
+            </div>
+            <div id="div3" class="nav">
+                <a rel="about" href="About.Html" class="">
+                    <label> About </label></br>
+                    <img src="assets/about2.png" alt="Logo" style="width:73px;height:50px;">
+                </a>
+            </div>
+            <div id="div4" class="nav">
+                <a rel="contact" href="Contact.html" class="">
+                    <label> Contact </label></br>
+                    <img src="assets/contact.png" alt="Logo" style="width:73px;height:50px;">
+                </a>
+            </div>
+            
+       <!--- </nav>  -->
+    </header>
+
+    <div class="content">
+        <h3 class="center3">Projects</h3>
+        </br>
+        </br>
+        <p> Click below for a preview of my recent projects. Check back later to see what else I'm working on.</p>
+        <a id="Projects"></a>
+        <p>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Projects
+            </button>
+        </p>
+        <div class=" col-md-4">
+            <div class="collapse" id="collapseExample">
+                <div class="card-body" style="overflow:auto;height: 300px; width: 300px;  padding:5px;">
+                    <img src="assets/generalstore.PNG" style="width:140px; height:160px;" id=" Store"
+                        class="img-responsive img-thumbnail pull-left" alt=" Store" />
+                    <a href=" https://github.com/Andrea-Kimball/Html_Register/tree/master/StoreAppDemo"
+                        class=" btn btn-info btn-md" style="background-color:#1E9E96" ;>Static layout Application</a>
+                        <p>Solely using HTML and CSS to build a storefront application, this project introduces the user to github and the wireframing process.</p>
+                    <br>
+                    <img src="assets/creature.JPG" style="width:140px; height:200px;" id=" Creature"
+                        class="img-responsive img-thumbnail pull-left" alt=" Creature" />
+                    <a href=" https://github.com/Andrea-Kimball/Html_Register/tree/master/creature"
+                        class=" btn btn-info btn-md" style="background-color:#1E9E96" ;>Creature Assignment</a> 
+                        <p>This project tests the users knowledge and application of CSS by creating something simple.</p>
+                        <br>
+                    <img src="assets/Komodo Challenges.PNG" style="width:140px; height:160px;" id=" Store"
+                        class="img-responsive img-thumbnail pull-left" alt=" Store" />
+                    <a href=" https://github.com/Andrea-Kimball/ConsoleApplicationChallenges"
+                        class=" btn btn-info btn-md" style="background-color:#1E9E96" ;>Business Challenges</a>
+                        <p>These console applications implement the repository pattern and unit testing learned in class. These demonstrate that I understand how to utilize interfaces and have an understanding of APIE and SOLID</p> <br>
+                    <img src="assets/bookmarked.PNG" style="width:140px; height:160px;" id=" Team Project"
+                        class="img-responsive img-thumbnail pull-left" alt=" Team Project" />
+                    <a href="https://github.com/gmason0702/BookmarkedAPI" class=" btn btn-info btn-md"
+                        style="background-color:#1E9E96" ;> Book Club
+                        Application-
+                        Team Project</a> 
+                        <p> This team project is an n-tier data application with an API presentation tier and full CRUD functionality. The group collaborated and was faced with the challenge of deciding on a topic that we all found interesting as well testing our ability to work together. My personal challenge,victory and contribution to this project is the implementation of user roles.</p>
+                        <br>
+                    <img src="assets/MJ.PNG" style="width:140px; height:160px;" id=" Store"
+                        class="img-responsive img-thumbnail pull-left" alt=" Coming Soon" />
+                    <a href="https://michaelforever.azurewebsites.net/" class=" btn btn-info btn-md"
+                        style="background-color:#1E9E96" ;> Michael, Forever</a>
+                        <p> This ASP.NET MVC project brings together everything that was learned throughout the previous projects adding the use of the MVC pattern. This project also gave me a better understanding of Azure.  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
+
+</body>
